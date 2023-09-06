@@ -37,11 +37,11 @@
                   <target>cloudhub-us-east-2</target>
                   <muleVersion>4.4.0</muleVersion>
                   <server>anypoint-exchange-v3</server>
-                  <!--<businessGroupId></businessGroupId>-->
+                  <businessGroupId>ed5fdb1c-772e-49cf-bec3-d2c357074d12</businessGroupId>
                   <!--<username>sdr</username>
                   <password>sadads</password> -->
-                  <!--<connectedAppClientId>9a9b185e978744d79e778816f418e40e</connectedAppClientId>
-                  <connectedAppClientSecret>c0E1298e136046b1A8Db2543003B26F1</connectedAppClientSecret>
+                  <connectedAppClientId>8db65bbfce964c9c8ae8576e5a416d0c</connectedAppClientId>
+                  <connectedAppClientSecret>FFCbF7c3D1Eb4E2f85dC661E89d3F9bF</connectedAppClientSecret>
                   <connectedAppGrantType>client_credentials</connectedAppGrantType> -->
                   <applicationName>hellow_world</applicationName>
                   <replicas>1</replicas>
