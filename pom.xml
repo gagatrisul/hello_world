@@ -18,13 +18,13 @@
 	</properties>
 
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-clean-plugin</artifactId>
-				<version>3.2.0</version>
-		<configuration>
-    <runtimeFabricDeployment>
+		<plugin>
+ 		 <groupId>org.mule.tools.maven</groupId>
+  		<artifactId>mule-maven-plugin</artifactId>
+  		<version>3.7.1</version>
+  		<extensions>true</extensions>
+  		<configuration>
+    		<runtimeFabricDeployment>
       <uri>https://anypoint.mulesoft.com</uri>
       <muleVersion>4.3.0</muleVersion>
       <username>user</username>
@@ -60,14 +60,7 @@
       </deploymentSettings>
     </runtimeFabricDeployment>
   </configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.mule.tools.maven</groupId>
-				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
-				<extensions>true</extensions>
-			</plugin>
-		</plugins>
+</plugin>
 	</build>
 
 	<dependencies>
