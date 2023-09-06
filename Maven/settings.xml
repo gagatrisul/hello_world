@@ -125,8 +125,8 @@ under the License.
   <server>
     <id>anypoint-exchange-v3</id>
     <!-- NOTE: In order to be able to publish assets to exchange, this user will need Exchange Contributor Role -->
-    <username>~~~gg~~~</username>
-    <password>8db65bbfce964c9c8ae8576e5a416d0c~?~FFCbF7c3D1Eb4E2f85dC661E89d3F9bF</password>
+    <username>Gagan_trisul_Duddukuri</username>
+    <password>P@55w0rd@1234</password>
   </server>
  
     <!-- Another sample, using keys to authenticate.
