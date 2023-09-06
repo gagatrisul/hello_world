@@ -59,6 +59,8 @@ jobs:
         USERNAME: ${{ secrets.anypoint_platform_username }}
         PASSWORD: ${{ secrets.anypoint_platform_password }}
       run: |
+        pwd
+        ls -ltr
         artifactName=$(ls *.jar | head -1)
         mvn deploy -X -DskipMunitTests -DmuleDeploy \
          -Dmule.artifact=$artifactName \
