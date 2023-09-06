@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.mycompany</groupId>
+	<groupId>ed5fdb1c-772e-49cf-bec3-d2c357074d12</groupId>
 	<artifactId>hello-world</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
@@ -33,8 +33,8 @@
 				<cloudhub2Deployment>
                   <uri>https://anypoint.mulesoft.com</uri>
                   <provider>MC</provider>
-                  <environment>Development</environment>
-                  <target>NonProduction-PrivateSpace</target>
+                  <environment>Sandbox</environment>
+                  <target>cloudhub-us-east-2</target>
                   <muleVersion>4.4.0</muleVersion>
                   <server>anypoint-exchange-v3</server>
                   <!--<businessGroupId></businessGroupId>-->
@@ -43,12 +43,12 @@
                   <!--<connectedAppClientId>9a9b185e978744d79e778816f418e40e</connectedAppClientId>
                   <connectedAppClientSecret>c0E1298e136046b1A8Db2543003B26F1</connectedAppClientSecret>
                   <connectedAppGrantType>client_credentials</connectedAppGrantType> -->
-                  <applicationName>cicd-actions-test</applicationName>
+                  <applicationName>hellow_world</applicationName>
                   <replicas>1</replicas>
                   <vCores>0.1</vCores>
                   <properties>
-                    <anypoint.platform.client_id>Gagan_trisul_Duddukuri</anypoint.platform.client_id>
-                    <anypoint.platform.client_secret>P@55w0rd@1234</anypoint.platform.client_secret>
+                    <anypoint.platform.client_id>f6ac76a18874414ea50540feb7f71f48</anypoint.platform.client_id>
+                    <anypoint.platform.client_secret>819cCb4f99834Bc18627a3645f79FC87</anypoint.platform.client_secret>
                   </properties>
 
                   <deploymentSettings>
@@ -81,6 +81,12 @@
 
 	<repositories>
 		<repository>
+			<id>anypoint-exchange-v2</id>
+			<name>Anypoint Exchange</name>
+			<url>https://maven.anypoint.mulesoft.com/api/v2/maven</url>
+			<layout>default</layout>
+		</repository>
+		<repository>
 			<id>anypoint-exchange-v3</id>
 			<name>Anypoint Exchange</name>
 			<url>https://maven.anypoint.mulesoft.com/api/v3/maven</url>
@@ -105,5 +111,13 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
+	<distributionManagement> 
+	<repository> 
+	<id>anypoint-exchange-v3</id> 
+	<name>Corporate Repository</name> 
+	<url>https://maven.anypoint.mulesoft.com/api/v3/organizations/ed5fdb1c-772e-49cf-bec3-d2c357074d12/maven</url> 
+	<layout>default</layout> 
+	</repository> 
+	</distributionManagement>
 
 </project>
