@@ -35,12 +35,12 @@
                   <uri>https://anypoint.mulesoft.com</uri>
                   <provider>MC</provider>
                   <environment>Sandbox</environment>
-                  <!--<target>cloudhub-us-east-2</target>>
+                  <target>cloudhub-us-east-2</target>
                   <muleVersion>4.3.0</muleVersion>
                   <server>anypoint-exchange-v3</server>
                   <businessGroupId>ed5fdb1c-772e-49cf-bec3-d2c357074d12</businessGroupId>
-                  <username>Gagan_trisul_Duddukuri</username>
-                  <password>P@55w0rd@1234</password> 
+                  <!--<username>Gagan_trisul_Duddukuri</username>
+                  <password>P@55w0rd@1234</password>--> 
                   <connectedAppClientId>8db65bbfce964c9c8ae8576e5a416d0c</connectedAppClientId>
                   <connectedAppClientSecret>FFCbF7c3D1Eb4E2f85dC661E89d3F9bF</connectedAppClientSecret>
                   <!--<connectedAppGrantType>client_credentials</connectedAppGrantType> -->
